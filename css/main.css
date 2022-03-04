@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1320px;
+    margin: 0;
+    padding: 0 80px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__input{
+    margin: 0 8px 0 8px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(255, 29, 29);
+}
+
+
+.form__button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(170, 54, 160);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 8px;
+}
+
+.list{
+    width: 186px;
+    margin: 0 auto;
+    padding: 10px;
+}
